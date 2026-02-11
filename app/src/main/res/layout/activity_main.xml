@@ -12,7 +12,7 @@
     <LinearLayout
         android:id="@+id/mainLogoPanel"
         android:layout_width="match_parent"
-        android:layout_height="375dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,12 +24,12 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="179dp"
-            android:layout_height="168dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/nameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/my_name"
@@ -37,22 +37,22 @@
             android:textSize="@dimen/main_title" />
 
         <TextView
-            android:id="@+id/grouptext"
+            android:id="@+id/groupText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50px"
             android:text="@string/my_group"
             android:textColor="@color/accent_font"
-            android:textSize="16sp" />
+            android:textSize="@dimen/secondary_title"
+            android:layout_margin="@dimen/gap"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/contactText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/contact"
@@ -64,21 +64,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/my_phone"
-                android:textColor="@color/text_font" />
+                android:textColor="@color/text_font"
+                android:textSize="@dimen/common_text" />
 
             <TextView
                 android:id="@+id/tgText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/my_tg"
-                android:textColor="@color/text_font" />
+                android:textColor="@color/text_font"
+                android:textSize="@dimen/common_text" />
 
             <TextView
                 android:id="@+id/emailText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/my_email"
-                android:textColor="@color/text_font" />
+                android:textColor="@color/text_font"
+                android:textSize="@dimen/common_text" />
         </LinearLayout>
 
     </LinearLayout>
