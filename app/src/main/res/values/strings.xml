@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lab1mobile</string>
+    <string name="my_name">Lozhkin Alexander Sergeevich</string>
+    <string name="my_group">Б23-191-3</string>
+    <string name="contact">Contacts</string>
+    <string name="my_email">AquariusSTD@yandex.ru</string>
+    <string name="my_phone">+7 952-407-86-61</string>
+    <string name="my_tg">\@geckonda</string>
 </resources>

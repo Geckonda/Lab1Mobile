@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_title">20sp</dimen>
+    <dimen name="secondary_title">18sp</dimen>
+    <dimen name="common_text">14sp</dimen>
+    <dimen name="gap">20dp</dimen>
+
+
+    <!--  Для sw600dp  -->
+
+    <dimen name="main_title_sw600dp">36sp</dimen>
+    <dimen name="secondary_title_sw600dp">28sp</dimen>
+    <dimen name="common_text_sw600dp">24sp</dimen>
+    <dimen name="gap_sw600dp">24dp</dimen>
+</resources>
